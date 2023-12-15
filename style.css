@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #070109;
+}
+.container{
+    margin: 140px 100px;
+    /* height: 50vh; */
+    border: 2px solid black;
+    width: 70vw;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title1{
+    color:white;
+    font-size: 60px;
+}
+.title2{
+    color:green;
+    text-decoration: underline;
+    font-size: 70px;
+
+}
+.input-field{
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+    width: auto;
+}
+.password{
+    flex-grow: 1;
+    font-size: 50px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+.copyImg{
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.copyImg:active{
+    color: white;
+    background-color: black;
+}
+.generate{
+    display: flex;
+    align-items:center;
+    width: 40%;
+    height: 60px;
+    margin-top: 30px;
+    border:2px solid green;
+    background-color: green;
+    cursor: pointer;
+    
+}
+.generateImg{
+    border: none;
+    outline: none;
+    margin-right: 12px;
+    height: 60px;
+    margin-left: 12px;
+}
+.generate-title{
+    text-align: center;
+    color:white;
+    border: none;
+    outline: none;
+}
+
